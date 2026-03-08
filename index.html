@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EXAMPLE" crossorigin="anonymous">
+    <!-- Optional Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <h2>Welcome to my website!</h2>
+    <header class="bg-light py-3 mb-4">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container text-center">
+            <h1 class="display-4">LU THI CAM TRI</h1>
+            <p class="lead">Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer and designer with experience in creating responsive and user-friendly websites. I enjoy solving problems and bringing ideas to life through code.</p>
+    </section>
+
+    <section id="projects" class="container mb-5">
+        <h2 class="mb-4">Github</h2>
+        <!-- Bootstrap carousel for motion -->
+        <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Project 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h5>Project Title 1</h5> -->
+                        <!-- <p>https://github.com/luthicamtri10</p> -->
+                        <a href="https://github.com/luthicamtri10" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Project 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Resume</h5>
+                        <!-- <p>Short description of the project.</p> -->
+                        <a href="#" class="btn btn-primary">View Resume</a>
+                    </div>
+                </div>
+                <!-- Add more carousel items as projects -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>LinkedIn: <a href="#">Your Profile</a></p>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-EXAMPLE" crossorigin="anonymous"></script>
 </body>
 </html>

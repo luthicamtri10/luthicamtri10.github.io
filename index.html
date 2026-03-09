@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevPortfolio - LU THI CAM TRI</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional Bootstrap Icons -->
@@ -12,71 +12,216 @@
 <body>
     <header class="bg-light py-3 mb-4">
         <nav class="container navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Portfolio</a>
+            <a class="navbar-brand" href="#">DevPortfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-3">
+                        <a class="btn btn-primary" href="#contact">Hire Me</a>
+                    </li>
                 </ul>
             </div>
         </nav>
         <div class="container text-center">
-            <h1 class="display-4">LU THI CAM TRI</h1>
+            <h1 class="display-4 fw-bold">LU THI CAM TRI</h1>
             <p class="lead">Web Developer & Designer</p>
         </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate web developer and designer with experience in creating responsive and user-friendly websites. I enjoy solving problems and bringing ideas to life through code.</p>
-    </section>
-
-    <section id="projects" class="container mb-5">
-        <h2 class="mb-4">Github</h2>
-        <!-- Bootstrap carousel for motion -->
-        <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Project 1">
-                    <div class="carousel-caption d-none d-md-block">
-                        <!-- <h5>Project Title 1</h5> -->
-                        <!-- <p>https://github.com/luthicamtri10</p> -->
-                        <a href="https://github.com/luthicamtri10" class="btn btn-primary">View on GitHub</a>
-                    </div>
+    <!-- Hero Section -->
+    <section id="hero" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge bg-primary mb-2">AVAILABLE FOR INTERSHIPS</span>
+                    <h1 class="display-4 fw-bold">Passionate IT Student & <span class="text-primary">Aspiring Developer</span></h1>
+                    <p class="lead">Final-year IT student seeking internship opportunities to apply technical skills in real-world projects and build scalable software solutions.</p>
+                    <a href="#projects" class="btn btn-primary me-2">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-primary">Get In Touch</a>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Project 2">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Resume</h5>
-                        <!-- <p>Short description of the project.</p> -->
-                        <a href="#" class="btn btn-primary">View Resume</a>
-                    </div>
+                <div class="col-lg-6 text-center">
+                    <img src="/img/IMG_8071.PNG" class="img-fluid rounded-circle w-50 shadow" alt="Profile">
                 </div>
-                <!-- Add more carousel items as projects -->
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-        <p>LinkedIn: <a href="#">Your Profile</a></p>
+    <!-- Skills -->
+    <section id="skills" class="py-5">
+        <div class="container text-center">
+            <h2 class="display-5 fw-semibold mb-4">Technical Arsenal</h2>
+            <div class="row g-3 justify-content-center">
+                <div class="col-auto">
+                    <div class="card p-3 shadow-sm">
+                        <i class="bi bi-code-slash fs-2 text-primary"></i>
+                        <p class="mb-0 mt-2">Java</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card p-3 shadow-sm">
+                        <i class="bi bi-file-code-fill fs-2 text-primary"></i>
+                        <p class="mb-0 mt-2">C#</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card p-3 shadow-sm">
+                        <i class="bi bi-journal-code fs-2 text-primary"></i>
+                        <p class="mb-0 mt-2">JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card p-3 shadow-sm">
+                        <i class="bi bi-braces fs-2 text-primary"></i>
+                        <p class="mb-0 mt-2">React</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card p-3 shadow-sm">
+                        <i class="bi bi-git fs-2 text-primary"></i>
+                        <p class="mb-0 mt-2">Git</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card p-3 shadow-sm">
+                        <i class="bi bi-box-seam fs-2 text-primary"></i>
+                        <p class="mb-0 mt-2">Docker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Featured Projects -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="display-5 fw-semibold mb-4">Featured Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="data:image/webp;base64,UklGRlgTAABXRUJQVlA4IEwTAABwXwCdASo9AeoAPp1In0ylpCorJDSKAWATiWVuvciuJdkYF5YXe4ueQfhHBVV+7+m+8qPoPMq+J72/pg5svqm597TjXX9V3CFG915xt+x87/afUX+c/vvmhcbXQA/i/88/2X9p/KD6kf9Pyu6iHS1HG+/A1zc85m5lXV7VgX/I9QKHRBOQeC6OQePL37uEiMmEFYzC4BUMTuNbB05j0f17tRA5nwwe6XXpm4JBuVk7h6oKVUlMPmiWbcR6DkUYwTbLG4t2V4vXDq2zv1Y+BsHahzmIQPbWeqPrZzXcutFF2O4pjayJEWaIhuN7CUkq+Qe9qdrlzQnrnNz6SxU5i1ZZhksb/e83sk0EE7KvSOhsbV1/2JA7IHtu8yei9lACbNrXp+5UUkKyl6WMyzm/FlopUarc9tjXx9g7+N44+3Z5LCt68AkpmjWHF2ccui0JjF5pqj4tbCBtb/umjbRooHf2gu5hXSYrv/WvwVzga4v3mMRy9sbxOsBS0+byLrsLXlXRNGX9rr9AaUlMXKi9O7oK8oliqrCx4EtGGzSVfKkr7XiycKWKPlOhPH0q3obmapyeyr/VWLZf768CT6fVO4IBSA84sidtKGYZ6ZbFeFhUhMgnLFZmdU8A81bi4pOo8itr6ls0aNs+6q0HYSPYK3gz6mMIqmngLEq0wSaf26II9hmtANvLjSjPxkRE7rsaVeD8jUEYKrtS2qc2jNwdd+Jn2Nird3E4Crpy+0mfCgFKMQD+cxlXYBFbgT6++khkvPEuaYihHY2hpLjkfTbMwWB9FaP0EdSeBdCmhgqIvfyxxiRKCCnKfVF/dp8i6ZGiGg2UBBecrWiuT64YUwY7mlagFl65fbqmo/tYticDUhT+JVrB+dwETWD8UZZ6H7cSPOVY7e3+DnGjmSet9kyyJP/gG9mNMLnsK3LqsxqD3o65vefVAcy14J8h9nrZZNbmk+TFgSd4At9MdZG4Ql3GE5Q/tQDkZqG9LHKFBHG1lQd9Y+0oiQUp5K6opVVdqaQrkXKKYmwAAP7rJyLZZ9T4wghtBn8K6JeqkSlfFnFve6Iwup05ZpyeYXu9ePDnoKBYpyYuMqCB8fkmU1HhOL0flP5PPElgkNjCOUmxBqgfuROiofA8b5O0ga13DK4JBqEFhSFcXNjRJ/Oh+rvdBejhYoMKzoSwQkeahCXdnPPd14PgBqczpNPgHSq/AJvF1YEp2Xi3uppMeyh+h0qqQpPD2X/FrDtdHzGvM5TUDCPC34db3aAwdnbGnbJYyXMjXIBPVwlr4kjxRyj4JmAifn+BkH4Dq/KvLKo8ngnPaysLqQEFeDCKgbYU5wXiherpfu8GCLt9JrlDqUpdql/XSFrYIluC4TZvgvyBvGNS19AIrxA3N+byzKs8Etxecfal50A9JWdkHwqDty8f8xBEXpBDWn9fx/JdMiR70zNmspsY+sYYWXJ83QFER1BCrpIo7js88dP7rYEKNqz5OlOhHMXwzj0+HL60iUuyoYmDnF0je18xFnGu3NgohrkximTz7XcsRiSchmQ8zoWsSGlnyMpBncSsI5GgAdwSaAvxBAj67Yy2CpmhqidaLNSWLEpTyQ+jUNNPJuy1u4w1Xbnr0ScGqiKGa3r4Qg6NtQDmQ5wZj2+rypkWFtL+pTrzLWzRMeYbZFVAud72TO3r7rATz5M2FboFGIR/j5E74AI4dTkFHwjWmUBZH/puX8lmLpl5cXW5UbaSv9t1fPQLFSAz1aoJ1hFa37R2nv/mwd+PrERE8c4RMQNAAOzA9oDY113k7y4ASo/oN/ASkjtftT95FcO2fIJAvRrqLoL3LHE7SnbLYHXGhrZiYKYl5JB2Sake/Bwd3JO67SEfudybQHo0tkPA0oali3ukMLdL/3/dtPkAXP52GPG6ENKuxYr6dvsWa2E8GvP7QmySSCBpsX2w/G4JTzuONeRrNgjKPdtYV+fCkr7jYp1fvfyVUV3Cco5YHOTutefSGnoeHeL8/yJFfi1+nMeCbqy6swJviHCb4gJqQl8D17dsDy3bS7IUUM3q42HXvQnW3SxO4CIauYKalw+PppdDNoryPPwTYVjuemCHnPcY5jIm036WuUWeDwAh+QaiRqXC9TIKFnqrXkl7KmbLAM8K/ma0q5wvWCWxU6TNxURVPifiSohHmlA50+2N2MKZpYR15uS+paCdYs7lht6zTo5o8G1jJ9vw6kpd6oinCNleDNClJj7L9swlleVYtk4MPGotMW/1GV+g2f9DYFLfk9hTAcmE/IkLZkm/QNVvZXPrzs02vKz84xThPicZY4akHBsdwHVL4aKtkyJGvxFnVczntbsDMxu91mfZsXzVZzvRFz5dwakmbjSAmND0nIi/kjFeLTZigDl/6koGWvKiwlaYCk9Vutjr5ldJPFBCS/zSE6yBAjVBAjNqs6YFHQoGCBsmW9NyNMsLpFkKNmRxOr7xUXBfGtYWiDpSpFcNnzkgSyCexO9fYV56NtTmC5q4Yq2jtAPOOQTMwgGkqeegFHLhFRFM6S6BwCtde1qHNXyn9U/uGB7pkicLUMOWswOcickfhxixTaBsGNEQk2SfPqoykcG5pNmhH+t76zEpRtHiXB27fFD/BOA/nUB76+r+nwWBKtxMkyybPXl30wDLT5iCyTLNLpM23Wt36r5vx5/QNDgHY2Rr/UDEXmwcDimVSiVSWzDAG72W7tqONjGaXvQ5+k9Ox52xHmyQCPrf/HtSQ9FPsfSuauGLvT7NtZW3IbFOmYC0o1M5qO8cckKK14OLehBuIpBY0X4LkOQroU3a10k/FOXG2BYWf7X3lDXda9iyfXt7rMhsKgsfXXQXkZJUBYkvdn3U7/4DPi3+9Bv92noTJ14xFXM1wDxO3fYrvsBaCkFeROGoqR4dk5OVBBHGApH751L6t3TtAwGz+hRi9NNjapV+xGiy58hDCHJpkkgAn7QPnpZZvfNarAVG/pmtr/HBZZI4OyQ4MSZyhJbaEsR4bHwqc6bKthxhkLm/HRHQZhOe7pDdpfiRBSQckXKEsXUsYOsgHeCox0flvvWPSHowoL8AuPMmxFiRFGK9u1ZYpLh7LkVCbkSNchrvZnTIGtHAU7EMAxA8Mt3RAcbSWKqS/fIFRMuJ/RJp7LqBHq5oLnzoy/6sRSlqUx2YUI7K7SNmoiVD20F0OC6uwnzwnk/X3XxXKZNnV+SodE+ntSLTUF157lyu6awtg8DHPZ4MiZvpwNkeiM14eKSuhyCL6fr1TlDHyS86yyC2i4SniwTHcLuGxaKIUhQV1MR3enz6Xubki/9GAOUd9e/j9BL8qAqpYoXDXjmM+Y8Im3fFi+0ron3WfA/H8Yg151JlJtYupSZsO8JSqtN9CtiMkjNB6m1rG3m6YjFnqgligPHTAOnaeDf1HMCx8BKtKTT48mpiHcZ/3eAD1hOFdxqfGfWAwP7cNWcDtSEhlwuV3nGGNVPv6XT2DfkaWNcthKFSpNYTlO/HH6IauS7wCtN0VYPGphS9sHpqgkYFxSQzzDRdJjiU5a72jw0kfCFOuhqbibY0RRsv6taEld7jiKaiJD+lBI5F4JOa4AZV9lVr9fkMxTYWLNVqfh+tOl/8o8fUtpdbprG3rl4uH4R6RhkQChP+MAIRurCHQVDfEfwx8JQ0fj/4EzCB+XT6+um8nlEC+wcSUAsVa9NRf1z7r0fNA8rcPMwziElwXj5rG/nTl8mi+2Ow2vKUxRtO3jNiTAk6/s5ioydRcvaePs4917PvUe/spnuVKbR0RaColPlCpGU+FC4nzWOWC1Nt4qnvcUFTNAIeLi0IpBcJ96RjIwyYZmYFLu2NVLgLCjdpizc1aAb6dIc2cH8xsme3HcdKssGPu+3ASyiKrEe3rkxALb3xwfRS50+K5NKz5C+f76rZt32h0YEOde3X9NSX95OTJbB7d6ybkE3l+DH64udTXmUe/OfhXIswTB6pMN7nObBavNcst51vhsmAswdMOfeVRrzqM/cvM+Kz5ZhJW6Ygs3MGp5ziabJFZJkym+0P5Tc8/KNif4eR/1xdpiyiFGP9bsWOieF6oO5t5lgcpFV4Y+9EjeGw6O0Yi0mlNZ4JzO3CwO/DHxlogb+Yjl3nsCYR+XncIVZj7vvjdvWnnGSqYnjAlGNpGJtnSUbPzToyxLnUOFuyxQK+Uh4slVO2T6zyBxxs28S2hyzANYfq1JI5CZ+K6M3CerhbLYav9ixd7ejC5ybPAG5Xnmx4K/InJTLtLOFsB84bsecatKzMSP+iG/R3RTJL2nxW1WuQ7UuFnzL/y2pKncM9JdjcWwND2I943Y/nMkvpt/IQS7d4gf5mrP+I0H6uhpeCr6E3JjnPL5BOnmnVM5TAGyfr16/EPt9fdDK30wtAauEYvu8V4rYH10qgN9nacDG+Nrc8MjK/Mjnha2bYHJMmhACd6L+x/dOgTrM98M/uH46nO/DHMUT97JwO/wKAI7+3jUgPMTrpKrVBvZ6AGg1PJcS6AVMaSoGxOeb0ZQSbT+7AzPe2rUVPa4ZXz/9cHvcGkDrLUPbFeARPNNq8TyQAn9OGIfL9r461spd0Aj643hDsSQeEEYPojFzo0QHKeVm96pqyPXYKaf5eiKslusuUwraPuAyCmpz/ceI+6gTiIUD5Fn7ggk27HWaUhD2Y3Yo5cDDExPOKJzuxJ8O5Ey5RNGyJ4CzfK9jvXka+9YTehZBxkUwCmvV9dxg29egvp39FgebLggTMVO24l6+6xfTHBKZbkB5/jE6ccO56zam/23vA1Rw617IG6Q2/+lnLB1spKZexwND0QvymySnLES1MmuFUQtU3kggZziOKTEQLuS8tF/YQtcMYtd3aBuaUvpaAS4hO4aoJ+MaW4U4DnU35OObaBgND5dOxcH7z8D7s4ZvSZrhUj7h3uG80j07kdL0Hklu94KacTzt2Fchpq8qft/3x00OJUKk+6RMBWO05q7m0+ivGAnwWIEMQCwPTibMuVwOONuVPrqTSWwQTYDuaYBJekIprWxhlPqaFO2RwcI0L6rL01MFulGGQynYDXM3niMQ7mNLAtzpg8OcE3XYnNlHU/Sj/9WQkZxkpLZkj5aGQ1ElWHzNpWht+kWCjQZuEk8/zA9IoPJt7YPM0jc+KR5uOi1GsIdVXUUOhnoSrVNehbrRiAmK0oq9dUg2kIrLx8Lcq4k/BZRhTdXj9+5+mMpxRpx6rm2PJJgwnoGoFPVI11aRVqvP4lBQbnHLi1dQebMNzDVFTxjuGieeaZdL/Cfg3awcQMgZPbwoawKqjINj5VIXmJd6HCKydVtNiDEBq4fJyC2F3ZOeeGgKOI9lgbulDctENfu5VbWQvwUkRSdbei5L5Ib/XoPYnYdQH8PJ355GS40CyMQj1fdeJaWCXOrYw5vdOFau/ng7GXNXy0lD1VHO8Y7qvixK1Q0Ifxku4IwenWuvoGxRJ0ARTeasOej9zUQcUeGNg20ErtECkwIdicNCnxZFrQmByBJsRConKJFuqbxM68HF8uPfudIwhF1uQkhzM2wBTYxwB3IUpuA3C1j4RX3h8leVM9C8Ir/1BPL0OkZzJVbW4NC5iFG//LdwDgfQ86rku7uaXUnVnW72D1PpFDeT82ctebk73bhArAkSSZc06OSJNMzYwZIkR8VBWnaBQhSLJ23Gx2pzpxsj4/wJazggXE9RlXfaZkfE29thZ32Jc6zQz6g4RgieD4sq9wWJZtgvDhszZyXOY1mD8bKS1PQxVtii+I/3cD/a/fIa4gd3gEnY8pHKJjthCBYnXNXZptjfOvokH1/8+DgenH+0tOISlfPJnHMyTs1g1ldoi6EcVi21bBp6iwwvsB0/Q9K5077LqxAOxSgkjUbFUwG8gvUza8UiflVNb24Dbp+UTcJdoUpykXKfq7zseZ0K3oxCoY7e2AfAJe59FRJuV+BNbOZWmx49F0srUyHotiJetFQlAQBJrxZOMSHLIFU2RrYPMoj/ugegXpsMytVQ0RmI3mNNLoDpzSgXqpPaIcZNC2iEBInILQpwV3d/RHR9EJN/fCYT6kw1pPoHQkS0v0LSgiSFkkq+x++e6WS9RHlEGAjXBrcuc1krplzuCdsnCyWEAdOrh9qK1X7RQYZ5olfqcKvwWLpft9xcwT9CDrZf1bidWJGd+ICJ+85TGLav1ZyWYDifpoCGJVlFC54Kt9gB0M0SCHlvDb6llWbcox8DLRwsIOgR4jJSxoQNONlRKFBZ5qh43sC/PONruLNxuK1Rx+QIUjNklNsBORt2C5HqeidalHidmEBv7EGSmLnWLEEjuytwPLK3QXplOAFbiNQH5Q6TDWJqeAs60qavy5ESSzQdBe7/Jo704ZXE+5ob4b1hbtTAfYZFVWqLl800TBvm5GAgKY0vHCzZiJNViA6xPuNyEhZvKdGXNJ+5zQG9ig2HIQ6AVC0mjkNoxEYtFNaNnhi7mtV0iETxXISi/OPDON/jRhoiy+MgENACWQ0squLWxiEcZN9l74cAAqcZ00cZmtZzWG0AAk52zMPzNqW4Uek8+tkb6h/zKcqAEiVbHqKjR2QRZQLwV3H+p10agr5QP4IZokcUkilHLEObBlf4+LIqiRgAAAA==" class="card-img-top" alt="E-Commerce Platform">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Airline Management System (AMS) – Bamboo Airways Edition</h5>
+                            <p class="card-text">An efficient, secure, and user-centric Airline Reservation System designed to streamline the booking process. Key features include real-time flight lookups, secure online payments, and an integrated management dashboard for flight operations and business analytics.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-info">Spring Boot</span>
+                                <span class="badge bg-secondary">MySQL</span>
+                                <p>Github</p>
+                                
+                                <button type="button" class="btn btn-outline-primary"><a href="https://github.com/luthicamtri10/FlightManagementSystem" class="d-block mt-2 fw-bold text-center" style="text-decoration: none;" target="_blank">Backend</a></button>
+                                <button type="button" class="btn btn-outline-primary"><a href="https://github.com/luthicamtri10/react-flight-management-system" class="d-block mt-2 fw-bold text center" style="text-decoration: none;" target="_blank">Frontend</a></button>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Data Analytics Tool">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Data Analytics Tool</h5>
+                            <p class="card-text">Python-based tool for analyzing large datasets, generating automated reports, and visualizing trends using Matplotlib.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-primary">Python</span>
+                                <span class="badge bg-info">Pandas</span>
+                                <span class="badge bg-secondary">Jupyter</span>
+                                <a href="#" class="d-block mt-2" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Task Manager API">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Task Manager API</h5>
+                            <p class="card-text">A robust RESTful API built with Node.js and Docker for containerized deployment, featuring JWT authentication.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-primary">Node.js</span>
+                                <span class="badge bg-info">Docker</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                                <a href="#" class="d-block mt-2" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Background -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="display-5 fw-semibold mb-4">Education & Background</h2>
+            <div class="row align-items-start">
+                <div class="col-lg-8">
+                    <p>I am currently in my final year of Information Technology studies, specializing in Software Engineering. My academic journey has been driven by a curiosity for how complex systems work and a desire to build things that solve real problems.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-book-fill me-2 text-primary"></i>Bachelor of Science in Information Technology, University of Technology, 2022 – 2026 </li>
+                        <!-- <li><i class="bi bi-award-fill me-2 text-primary"></i>Certifications: AWS Certified Cloud Practitioner, Meta Front-End Developer Professional Certificate</li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3 shadow">
+                        <h5>Quick Facts</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-house-door-fill me-2"></i>Based in Quang Ngai Province</li>
+                            <li><i class="bi bi-code-slash me-2"></i>Fluent in Java, C#</li>
+                            <li><i class="bi bi-github me-2"></i>Open Source Contributor</li>
+                            <li><i class="bi bi-people-fill me-2"></i>Agile/Scrum Enthusiast</li>
+                            <!-- <li><i class="bi bi-trophy-fill me-2"></i>Hackathon Winner (TechFest 2023)</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let's Connect -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <h2 class="display-5 fw-semibold">Let's Connect</h2>
+                    <p>I'm currently looking for internship opportunities starting Summer 2026. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i>lutri29102004@gmail.com</p>
+                    <p><i class="bi bi-linkedin me-2"></i><a href="#" class="text-white">linkedin/in/itstudentdev</a></p>
+                    <p><i class="bi bi-github me-2"></i><a href="#" class="text-white">@it-grad-dev</a></p>
+                </div>
+                <div class="col-md-8">
+                    <div class="card p-4 bg-secondary text-white shadow">
+                        <form action="https://formspree.io/f/xjgagwze" method="post">
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input name="Name" class="form-control" type="text" placeholder="John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input name="Email" class="form-control" type="email" placeholder="john@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea name="Message" class="form-control" rows="4" placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 LU THI CAM TRI. All rights reserved.</p>
     </footer>
 
     <!-- Bootstrap JS bundle (includes Popper) -->

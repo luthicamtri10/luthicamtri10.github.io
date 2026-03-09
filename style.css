@@ -1,3 +1,14 @@
 body {
-    
+    scroll-behavior: smooth;
+}
+
+/* ensure icons inside cards are centered */
+.card i {
+    display: block;
+    margin: 0 auto;
+}
+
+/* small utility for hero image rounding */
+#hero img {
+    max-width: 100%;
 }
